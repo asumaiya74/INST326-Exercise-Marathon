@@ -1,9 +1,3 @@
-"""
-Driver: Charlie Smith
-Navigator: Aysha Sumaiya
-Assignment: Exercise 08
-Date: 11/2/2021
-"""
 import players as pl
 
 def play_game():
