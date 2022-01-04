@@ -1,6 +1,5 @@
 import random
 
-
 class Player:
     """
         A class to represent the Player playing the game. 
