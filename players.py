@@ -1,13 +1,6 @@
-"""
-Driver: Charlie Smith
-Navigator: Aysha Sumaiya
-Assignment: Exercise 08
-Date: 11/2/2021
-"""
-
 import random
 
-#player class
+
 class Player:
     """
         A class to represent the Player playing the game. 
@@ -22,7 +15,7 @@ class Player:
         self.name = name
         self.position = 0
 
-#red player
+
 class RedPlayer(Player):
     """
     A class that represents the RedPlayer playing the game. 
@@ -32,17 +25,17 @@ class RedPlayer(Player):
 
         Returns: N/A
     """
-    #init method
+
     def __init__(self,name):
          Player.__init__(self,name)
 
-    #walk method
+
     def walk(self):
         x = random.randint(1,10)
         self.position = self.position + x
    
 
-#blue player
+
 class BluePlayer(Player):
     """
     A class that represents the BluePlayer playing the game. 
@@ -52,7 +45,7 @@ class BluePlayer(Player):
 
         Returns: N/A   
     """
-    #init method
+
     def __init__(self,name):
         Player.__init__(self,name)
   
@@ -62,7 +55,7 @@ class BluePlayer(Player):
         self.position = self.position + x
     
 
-#play game function
+
 
 def play_game():
     """
